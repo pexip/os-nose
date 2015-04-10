@@ -1,0 +1,4 @@
+no-install-data
+no-google-analytics
+no-distribute_setup
+disable-unstable-tests
