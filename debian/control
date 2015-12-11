@@ -1,8 +1,9 @@
 Source: nose
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders:
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+XSBC-Pexip-Original-Uploaders:
  Torsten Marek <shlomme@debian.org>,
  Dmitry Shachnev <mitya57@debian.org>,
  Brian May <bam@debian.org>
@@ -24,6 +25,7 @@ Standards-Version: 3.9.6
 Homepage: https://nose.readthedocs.org/en/latest/
 Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/nose/trunk/
 Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/nose/trunk/
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ sid
 
 Package: python-nose-doc
 Architecture: all
