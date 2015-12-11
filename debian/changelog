@@ -1,8 +1,14 @@
-nose (1.3.6-1pexip1) pexip; urgency=low
+nose (1.3.6-1pexip2) pexip; urgency=low
 
-  * Prepare Pexip packaging
+  * Simplify build dependencies
 
- -- Colin Bradbury <colin@pexip.com>  Fri, 11 Dec 2015 14:19:57 +0000
+ -- Colin Bradbury <colin@pexip.com>  Fri, 11 Dec 2015 14:30:21 +0000
+
+ nose (1.3.6-1pexip1) pexip; urgency=low
+
+   * Prepare Pexip packaging
+
+  -- Colin Bradbury <colin@pexip.com>  Fri, 11 Dec 2015 14:19:57 +0000
 
 nose (1.3.6-1) unstable; urgency=medium
 
@@ -79,7 +85,7 @@ nose (1.3.0-3) unstable; urgency=medium
 
   * Team upload.
   * d/patches/issue759: Add a patch from Barry Warsaw to fix FTBFS
-    with Python 3.4. 
+    with Python 3.4.
   * d/control: Bump Standards-Version to 3.9.5, no changes needed.
   * Rebuild closes: #730749.
 
@@ -243,7 +249,7 @@ nose (0.10.3-1) unstable; urgency=low
   * debian/control
     - bump standards version to 3.8.0, no changes necessary
     - add suggestions for python-coverage (Closes: #457053)
-    - change dependency on python-setuptools into 
+    - change dependency on python-setuptools into
       python-pkg-resources (Closes: #468719)
     - added myself to uploaders
 
@@ -346,4 +352,3 @@ nose (0.9.0-1) unstable; urgency=low
     python policy
 
  -- Gustavo Noronha Silva <kov@debian.org>  Sun,  7 May 2006 22:49:58 -0300
-

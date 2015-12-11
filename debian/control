@@ -10,8 +10,8 @@ XSBC-Pexip-Original-Uploaders:
 Build-Depends:
  debhelper (>= 9),
  dh-python,
- libjs-jquery-hotkeys,  
- libjs-jquery-isonscreen,
+# libjs-jquery-hotkeys,
+# libjs-jquery-isonscreen,
  libjs-jquery-tablesorter,
  python-all (>= 2.6.6-3~),
  python-setuptools (>= 0.6a9),
